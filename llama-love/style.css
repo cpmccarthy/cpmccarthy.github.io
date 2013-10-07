@@ -54,3 +54,23 @@ table {
 /* END RESET */
 
 
+
+section { position:absolute; width:500px; height: 500px; padding: 50px; margin: 10px; vertical-align: middle; }
+#main-content{
+    display: block;
+    float: left;
+    width: 100%;
+    vertical-align:middle;
+    clear: both;
+}
+#boxleft {   width:500px;  padding: 50px; margin: 10px; float: left; }
+#boxright {  width:500px;  padding: 50px; margin: 10px; float: right; }
+img {float: left; width: 200px; height: auto; padding: 10px;}
+h1 {font-family: helvetica; font-weight: bolder; }
+h2 {font-family: helvetica; }
+
+
+
+
+
+

@@ -48,9 +48,17 @@ table {
 }
 
 /* Add Styles Here */
-body { font-family:Times; font-size:14px; }
+body { font-family:Neutron; font-size:14px; text-align: left;}
 section#content { margin:0 auto; width:960px; padding:20px 0px; }
+body
+{background-color:#3B1D00;}
+h1 { font-family: century; font-size:48px; font-weight:bold; color:#FFC186; text-align:left; }
+h2 { font-family: akzidenz-grotesk, sans-serif; font-size:36px; font-weight:normal; color:#FFC186; text-align:left; }
+p { font-family: garamond; line-height: 40px; padding-bottom:10px; color: #FFC186; }
 
-h1 { font-size:48px; font-weight:bold; color:black; text-align:center; }
-h2 { font-size:36px; font-weight:bold; color:black; text-align:center; }
-p { padding-bottom:10px; }
+
+
+
+
+
+

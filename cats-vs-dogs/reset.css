@@ -73,4 +73,48 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
+h1 {font-family: helvetica; 
+	font-weight: bolder; 
+	font-size: 100px;
+	padding: 100px;
+	text-align: center;
+}
 
+.menu {
+	text-align: middle;
+}
+
+li {
+    list-style:none;
+    float:left;
+    margin:10px;
+    background-color:grey;
+    border: 50px;
+    padding:7px 25px;
+    color:white;
+    text-transform:uppercase;
+    font-family:Helvetica;
+    clear:left;
+   float:left;
+   list-style:none;
+   margin:10;
+   padding:10;
+   position: middle;
+   left:50%;
+   text-align:center;
+
+  }
+a {text-decoration: none;
+	color: white;
+	font-weight: bolder;}
+
+	section {padding: 10px;}
+h2 {font-family: helvetica;
+	font-weight: bold;
+	font-size: 30 px;
+}
+article {width: 500px;
+	margin: 250px;
+}
+.godzilla {float: left;}
+.ghidora {float:right;}
