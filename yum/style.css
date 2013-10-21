@@ -56,7 +56,16 @@ table {
 
 body {padding-left: 42em; padding-right: 42em;padding-top: 10em; background-color:white; font-family: helvetica;}
 
-h1 { font-size: 60px; font-weight: bolder; padding-bottom: 40px;}
-h2 { font-weight: bold;}
-ul {padding-bottom: 20px;}
-p {float: right;}
+h1 { font-size: 80px; font-weight: bolder; padding-bottom: 40px; font-stretch: narro;}
+h2 { font-weight: bold; }
+ul {padding-bottom: 20px; width: 50%;}
+.crust {float: left; width: 50%;}
+.filling {float: left;}
+.garnish {witdth: 50%; float: left; padding-bottom: 20px;}
+.body {float:; right;}
+
+
+
+
+
+
