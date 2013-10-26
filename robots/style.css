@@ -50,3 +50,163 @@ table {
 	border-spacing: 0;
 }
 
+
+/*------------------start------------- */ 
+
+#site-header h1 a {
+ 	display:block;
+ 	width:306px; 
+ 	height:123px;  
+ 	background:url(images/logo.png) no-repeat top left; 
+ 	text-indent:-9999px;
+ }
+
+
+body {
+	font-family:helvetica;
+	width:100%; 
+}
+
+li a {
+	color:white;
+	font-family:helvetica;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+#top-nav a {
+	text-decoration:none;
+	color:#4f3a11;
+	padding:10px 10px 10px 10px;}
+
+#site-header {
+	position:relative;
+	height:150px;
+	background-color:#BEE362;
+	text-decoration:none;
+	
+}
+
+#site-header h1 {
+	position:absolute;
+	display:block;
+	width:300px;
+	height:125px;
+	background-color:#BEE362;
+	left:20px;
+	text-decoration:none;
+}
+#top-nav { 
+	position:absolute;
+	right:15px;
+	width:150px;
+	height:20px;
+	background-color:#BEE362;
+	font-family:helvetica;
+	font-size:12px;
+	text-decoration:none;
+}
+
+	
+
+#main-menu {
+	position:relative;
+	height:50px;
+	background-color:olive;
+	text-decoration:none;
+	font-color:white;
+}	
+#main-menu li{
+	float:left;
+	display:block;
+	padding:10px;
+	margin:10px 0px 5px 15px;
+	background-color:olive;
+	
+}
+
+article h1 {
+	font-size:30px;
+	color:olive;
+}	
+
+article h2 {
+	font-size:20px;
+	color:olive;
+	padding:10px 0px 10px 0px;
+	font-weight:bold;  }
+
+article p {
+	font-size:15px;}
+
+#page { 
+	float:left; 
+	margin:20px 15px;
+	padding:10px;
+	width:50%;
+}	
+
+#page h1{
+	font-size:40px;
+}
+
+#sidebar {
+	float:right;
+	width:25%;
+	margin-top:20px;
+	padding:10px;
+	
+}
+
+#sidebar h1 {
+	font-size:20px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:10px 0px 10px 0px;}
+
+#sidebar a {
+	color:olive;
+	text-transform:lowercase; 
+ }
+
+#sidebar li {
+	padding:0px 0px 8px 0px;}
+
+#site-footer {
+	clear:both;
+	position:relative;
+	height:55px;
+	background-color:#4f3a11;
+	font-color:white;
+	padding:20px 10px 200px 10px;
+}
+
+#footer-contact h1 {
+	background-color:#4f3a11;
+	color:tan;
+	position:relative;
+	width:20%;
+	padding:20px;
+	text-transform:uppercase;
+}
+
+#footer-contact p {
+	position:absolute;
+	width:200px;
+	color:white;
+	padding:20px;
+}
+
+#footer-follow h1 {
+	float:right;
+	color:tan;
+	text-transform:uppercase;
+	width:20%;
+	padding:10px 10px 10px 10px;
+}
+
+#footer-follow li {
+	float:right;
+}
+
+
