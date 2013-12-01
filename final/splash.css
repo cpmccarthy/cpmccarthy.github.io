@@ -49,7 +49,58 @@ table {
 
 
 -----------------start---------------------
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('raleway-bold-webfont.eot');
+    src: url('raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-bold-webfont.woff') format('woff'),
+         url('raleway-bold-webfont.ttf') format('truetype'),
+         url('raleway-bold-webfont.svg#ralewaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('raleway-regular-webfont.eot');
+    src: url('raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-regular-webfont.woff') format('woff'),
+         url('raleway-regular-webfont.ttf') format('truetype'),
+         url('raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'berliner_frakturregular';
+    src: url('resistenza_-_berliner_fraktur-webfont.eot');
+    src: url('resistenza_-_berliner_fraktur-webfont.eot?#iefix') format('embedded-opentype'),
+         url('resistenza_-_berliner_fraktur-webfont.woff') format('woff'),
+         url('resistenza_-_berliner_fraktur-webfont.ttf') format('truetype'),
+         url('resistenza_-_berliner_fraktur-webfont.svg#berliner_frakturregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'playfair_displayitalic';
+    src: url('playfairdisplay-italic-webfont.eot');
+    src: url('playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('playfairdisplay-italic-webfont.woff') format('woff'),
+         url('playfairdisplay-italic-webfont.ttf') format('truetype'),
+         url('playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 #bg {
   position: fixed; 
@@ -60,14 +111,87 @@ table {
 }
 #bg img {
   position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
+  top: 0%; 
+  left: 0%; 
+  right: 0%; 
+  bottom: 0%; 
   margin: auto; 
   min-width: 100%;
   min-height: 100%;
 }
 
 
+header {text-decoration: none;}
 
+#banner {
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 80%;
+  max-height: auto;
+}
+
+
+
+
+
+nav{
+  
+    list-style:none;
+    margin-left:10%; 
+    margin-right:10%;
+    padding-top:1em;
+    padding-bottom:1em;
+    text-align:center;
+    font-family: berliner_frakturregular;
+    font-size: 2em;
+    text-decoration: none;
+
+  }
+.nav li{
+    display:inline;
+  padding:0;
+
+}
+.nav a{
+    display:inline-block;
+    text-decoration: none;
+    padding-left: 2em;
+    padding-right: 2em;
+color: black;
+}
+
+
+#selected {text-shadow: 0px 2px 10px #666;
+}
+
+
+
+#albumart {
+  float: left;
+  margin-left: 10%;
+  max-width:40%; 
+}
+
+
+
+.illumi {float: right;
+margin-right: 10%;
+
+width: 40%;
+font-family: raleway;
+  }
+
+.illumi li {font-family: raleway;
+  padding-top: .25em;
+  font-weight: regular;
+  font-size: 2em;
+}
+
+h1 {font-family: raleway;
+font-weight: bold;
+font-size: 3em;
+ }
+ 
+ h2 {
+   font-family: playfair_displayitalic;
+ }
