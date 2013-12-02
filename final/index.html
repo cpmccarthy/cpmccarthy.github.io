@@ -3,6 +3,63 @@
   <head>
 <link rel="stylesheet" href="splash.css" type="text/css" media="screen" />
 
+<script src="audio.min.js"></script>
+<script>
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+</script>
+
+<script src="./jquery.js"></script>
+    <script src="audio.js"></script>
+    <script>
+      $(function() { 
+        // Setup the player to autoplay the next track
+        var a = audiojs.createAll({
+          trackEnded: function() {
+            var next = $('ol li.playing').next();
+            if (!next.length) next = $('ol li').first();
+            next.addClass('playing').siblings().removeClass('playing');
+            audio.load($('a', next).attr('data-src'));
+            audio.play();
+          }
+        });
+        
+        // Load in the first track
+        var audio = a[0];
+            first = $('ol a').attr('data-src');
+        $('ol li').first().addClass('playing');
+        audio.load(first);
+
+        // Load in a track on click
+        $('ol li').click(function(e) {
+          e.preventDefault();
+          $(this).addClass('playing').siblings().removeClass('playing');
+          audio.load($('a', this).attr('data-src'));
+          audio.play();
+        });
+        // Keyboard shortcuts
+        $(document).keydown(function(e) {
+          var unicode = e.charCode ? e.charCode : e.keyCode;
+             // right arrow
+          if (unicode == 39) {
+            var next = $('li.playing').next();
+            if (!next.length) next = $('ol li').first();
+            next.click();
+            // back arrow
+          } else if (unicode == 37) {
+            var prev = $('li.playing').prev();
+            if (!prev.length) prev = $('ol li').last();
+            prev.click();
+            // spacebar
+          } else if (unicode == 32) {
+            audio.playPause();
+          }
+        })
+      });
+    </script>
+<style type="text/css">
+</style>
   </head>
 
 
@@ -11,11 +68,11 @@
   <img src="images/banner.jpg" id="banner" alt="banner">	
   <nav>
   <ul class="nav">
-<li id="selected"><a href="video.html">Music</a></li>
-<li><a href="###">Videos </a></li>
-<li><a href="###">Shows</a></li>
-<li><a href="###">Ronin</a></li>
-<li><a href="###">Contact</a></li>
+<li id="selected"><a href="index.html">Music</a></li>
+<li><a href="video.html">Videos </a></li>
+<li><a href="shows.html">Shows</a></li>
+<li><a href="ronin.html">Ronin</a></li>
+<li><a href="contact.html">Contact</a></li>
 </ul>
 </nav>
   </header>
@@ -26,23 +83,28 @@
 
 </section>
 <section class="illumi">
+
 <h1 id='albumtitle'>ILLUMI NAUGHTY</h1>
 	<h2> mixtape 2013</h2>
-	<ul>
-<li>1. Gun!</li>
-<li>2. King of Monsters ft. &#198;ther</li>
-<li>3. Fistfull of Dynomite</li>
-<li>4. Absurd!</li>
-<li>5. Day of Anger</li>
-<li>6. Masters of Death</li>
-<li>7. Illumi Naughty</li>
-<li>8. Here Comes Mr. Ugly</li>
-<li>9. Boomstick</li>
-<li>10. Faces of Death</li>
-<li>11. Ssssick!!!</li>
-<li>12. Navajo ft. Death Rides a Horse</li>
-	</ul>
+	
+<div id="wrapper">
+      <audio preload></audio>
+      <ol>
+        <li><a href="#" data-src="music/gun.wav">Gun!</a></li>
+        <li><a href="#" data-src="music/king_of_monsters.wav">King of Monsters ft. &#198;ther</a></li>
+        <li><a href="#" data-src="music/fistfull_of_dynomite.wav">Fistfull of Dynomite</a></li>
+        <li><a href="#" data-src="music/absurd.wav">Absurd!</a></li>
+        <li><a href="#" data-src="music/day_of_anger.wav">Day of Anger</a></li>
+        <li><a href="#" data-src="music/masters_of_death.wav">Masters of Death</a></li>
+        <li><a href="#" data-src="music/illumi_naughty.wav">Illumi Naughty</a></li>
+        <li><a href="#" data-src="music/here_comes_mr_ugly.wav">Here Comes Mr. Ugly</a></li>
+        <li><a href="#" data-src="music/Boomstick.wav">Boomstick</a></li>
+        <li><a href="#" data-src="music/faces_of_death.wav">Faces of Death</a></li>
+        <li><a href="#" data-src="music/sssssick!!!.wav">Sssssick!!!</a></li>
+        <li><a href="#" data-src="music/navajo.wav">Navajo ft. Death Rides a Horse</a></li>
 
+      </ol>
+    </div>
 </section>
 
  

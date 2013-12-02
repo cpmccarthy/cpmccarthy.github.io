@@ -143,7 +143,7 @@ nav{
     padding-bottom:1em;
     text-align:center;
     font-family: berliner_frakturregular;
-    font-size: 2em;
+    font-size: 1.5em;
     text-decoration: none;
 
   }
@@ -169,15 +169,17 @@ color: black;
 #albumart {
   float: left;
   margin-left: 10%;
-  max-width:40%; 
+  max-width:35%; 
+  
 }
 
 
 
 .illumi {float: right;
 margin-right: 10%;
+padding-left: 5%;
 
-width: 40%;
+width: 35%;
 font-family: raleway;
   }
 
@@ -195,4 +197,21 @@ font-size: 3em;
  h2 {
    font-family: playfair_displayitalic;
    font-size: 1.5em;
+   padding-bottom: 1em;
  }
+
+ 
+      a { color: #888; text-decoration: none; }
+      #wrapper { width: 35%;  }
+      
+      ol { padding: 0px; margin: 0px; list-style: decimal-leading-zero inside; color: #ccc; width: 460px; border-top: 1px solid #ccc; font-size: .5em; }
+      ol li { position: relative; margin: 0px; padding: 9px 2px 10px; border-bottom: 1px solid #ccc; cursor: pointer; }
+      ol li a { display: block; text-indent: -3.3ex; padding: 0px 0px 0px 20px; }
+      li.playing { color: #aaa; text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3); }
+      li.playing a { color: #000; }
+      li.playing:before { content: '>'; width: 14px; height: 14px; padding: 3px; line-height: 14px; margin: 0px; position: absolute; left: -24px; top: 9px; color: #000; font-size: 13px; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2); }
+      
+      
+      @media screen and (max-device-width: 35%;) {
+        #wrapper { position: relative; left: -3%; }
+        #shortcuts { display: none; }
