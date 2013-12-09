@@ -194,6 +194,28 @@ font-weight: bold;
 font-size: 3em;
  }
  
+#shows {float: right;
+margin-right: 10%;
+padding-left: 10%;
+font-family: raleway;
+  padding-top: .25em;
+  font-weight: regular;
+  font-size: 2em;}
+
+
+iframe {
+margin-right: 25%;
+margin-left: 25%;
+display:block;
+width:700px;
+}
+
+
+
+
+
+
+ 
  h2 {
    font-family: playfair_displayitalic;
    font-size: 1.5em;
@@ -209,9 +231,30 @@ font-size: 3em;
       ol li a { display: block; text-indent: -3.3ex; padding: 0px 0px 0px 20px; }
       li.playing { color: #aaa; text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3); }
       li.playing a { color: #000; }
-      li.playing:before { content: '>'; width: 14px; height: 14px; padding: 3px; line-height: 14px; margin: 0px; position: absolute; left: -24px; top: 9px; color: #000; font-size: 13px; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2); }
+li.playing:before { width: 14px; height: 14px; padding: 3px; line-height: 14px; margin: 0px; position: absolute; left: -24px; top: 9px; color: #000; font-size: 13px; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2); }
       
       
       @media screen and (max-device-width: 35%;) {
         #wrapper { position: relative; left: -3%; }
         #shortcuts { display: none; }
+
+
+ 
+
+#shows {float: right;
+margin-right: 10%;
+padding-left: 10%;
+font-family: raleway;
+  padding-top: .25em;
+  font-weight: regular;
+  font-size: 2em;}
+
+
+iframe {
+margin-right: 25%;
+margin-left: 25%;
+display:block;
+width:700px;
+}
+
+
