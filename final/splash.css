@@ -194,13 +194,21 @@ font-weight: bold;
 font-size: 3em;
  }
  
-#shows {float: right;
+#shows {float: left;
 margin-right: 10%;
 padding-left: 10%;
 font-family: raleway;
-  padding-top: .25em;
+  padding-top: 2em;
   font-weight: regular;
-  font-size: 2em;}
+  font-size: 1.5em;}
+
+#contact {float: left;
+margin-right: 10%;
+padding-left: 10%;
+font-family: raleway;
+  padding-top: 2em;
+  font-weight: regular;
+  font-size: 1.5em;}
 
 
 iframe {
@@ -215,7 +223,7 @@ width:700px;
 
 
 
- 
+
  h2 {
    font-family: playfair_displayitalic;
    font-size: 1.5em;
@@ -241,20 +249,5 @@ li.playing:before { width: 14px; height: 14px; padding: 3px; line-height: 14px; 
 
  
 
-#shows {float: right;
-margin-right: 10%;
-padding-left: 10%;
-font-family: raleway;
-  padding-top: .25em;
-  font-weight: regular;
-  font-size: 2em;}
-
-
-iframe {
-margin-right: 25%;
-margin-left: 25%;
-display:block;
-width:700px;
-}
 
 
