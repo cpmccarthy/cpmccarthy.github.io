@@ -212,13 +212,14 @@ font-family: raleway;
   font-weight: regular;
   font-size: 1.5em;}
 
-  #ronin {float: right;
-margin-right: 10%;
-padding-left: 10%;
-font-family: raleway;
-  padding-top: 2em;
-  font-weight: regular;
-  font-size: 1.5em;}
+  #ronin {
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 100%;
+  max-height: auto;}
+
+  #ronin img {max-width: 100%;
+  max-height: auto;}
 
 #crew h1 {font-family: ralewaymedium;}
 
@@ -231,12 +232,12 @@ font-size: 1.5em;
   #crew {float: left;
 margin-left: 10%;
 padding-right: 10%;
-  padding-top: 1.5em;
-
+  padding-top: 1em;
+padding-bottom: 1.5em;
   font-weight: regular;
   font-size: 1em;
 
-background-color:red;
+
 }
 
 
