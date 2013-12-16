@@ -221,8 +221,8 @@ font-family: raleway;
   font-size: 1.5em;}
 
 #video {
- width: 80%;
- height: auto;
+ width: 560px;
+ height: 340px;
  margin: 0 auto;
  padding-top: 5em;
 }
