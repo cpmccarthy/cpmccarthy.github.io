@@ -174,8 +174,8 @@ color: black;
   
 }
 
-.albumtitle {
-  font-family:  ralewaybold;
+#albumtitle {
+  font-family: ralewaymedium;
 }
 
 .illumi {float: right;
@@ -189,8 +189,8 @@ width: 35%;
   font-size: 2em;
 }
 
-h1 {font-family: raleway;
-font-weight: bold;
+h1 {font-family: ralewaybold;
+
 font-size: 3em;
  }
 
@@ -212,13 +212,33 @@ font-family: raleway;
   font-weight: regular;
   font-size: 1.5em;}
 
-  #ronin {float: left;
+  #ronin {float: right;
 margin-right: 10%;
 padding-left: 10%;
 font-family: raleway;
   padding-top: 2em;
   font-weight: regular;
   font-size: 1.5em;}
+
+#crew h1 {font-family: ralewaymedium;}
+
+#crew article {
+  font-family: ralewaymedium; 
+padding-top: .5em;
+font-size: 1.5em;
+}
+
+  #crew {float: left;
+margin-left: 10%;
+padding-right: 10%;
+  padding-top: 1.5em;
+
+  font-weight: regular;
+  font-size: 1em;
+
+background-color:red;
+}
+
 
 #video {
 margin-left: 10%;
