@@ -221,10 +221,11 @@ font-family: raleway;
   font-size: 1.5em;}
 
 #video {
- width: 560px;
- height: 340px;
- margin: 0 auto;
- padding-top: 5em;
+margin-left: 10%;
+text-align: center;
+display: block;
+margin: 0 auto;
+ padding-top: 2em;
 }
 
 
